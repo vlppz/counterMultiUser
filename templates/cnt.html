@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Main</title>
+	<meta name="generator" content="Geany 1.37" />
+</head>
+<body>
+	<h1>Welcome to counter!</h1>
+	<div class='cntBox'>
+		<h4 id='txt'>{{ cnt }}</h4>
+		<button class='btn'>+</button>
+		<button class='btn'>-</button>
+		<br>
+		<br>
+		<button class='btns'>save</button>
+	</div>
+	<button class='btnl'>Log out!</button>
+	
+	<script type="text/javascript" src="{{ url_for('static',filename='cnt.js') }}" ></script>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
+</body>
+</html>

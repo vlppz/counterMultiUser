@@ -1,0 +1,87 @@
+h1 {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.reglgForm {
+	padding: 5px;
+	width: 200px;
+	border: 2px solid #000000;
+	font-family: 'Titillium Web', sans-serif;
+	display: inline-block;
+}
+
+
+input[type=submit] {
+	padding: 5px 15px; 
+	background: #79FF81; 
+	border: 0 none;
+	cursor: pointer;
+	border-radius: 5px; 
+}
+
+h3 {
+	text-align: center;
+}
+
+.cntBox {
+	border: 2px solid #000000;
+	border-radius: 5px;
+	width: 85.1px;
+}
+
+h4 {
+	font-family: 'Comfortaa', cursive;
+	text-align: center
+}
+
+.btn {
+	cursor: pointer;
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #4676D7;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 16px;
+	display: inline-block;
+	
+}
+
+.btn:hover {
+	background: #1d49aa;
+}
+
+.btns {
+	cursor: pointer;
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #00AF0D;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 16px;
+	display: inline-block;
+	width: 85.1px;
+}
+
+.btns:hover {
+	background: #12811A;
+}
+
+.btnl {
+	cursor: pointer;
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #E7002D;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 16px;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.btnl:hover {
+	background: #B80024;
+	display: inline-block;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MultiUser Counter</title>
+</head>
+<body>
+	<h1>MultiUser Counter</h1>
+	
+	<form action="/register" method="post" class="reglgForm">
+		<h3>Registration</h3>
+		Login: <input name="login" type="text" />
+		<br>
+		Password: <input name="password" type="password" />
+		<br>
+		<input value="Register!" type="submit" />
+    </form>
+	
+	<form action="/login" method="post" class="reglgForm">
+		<h3>Login</h3>
+		Login: <input name="login" type="text" />
+		<br>
+		Password: <input name="password" type="password" />
+		<br>
+		<input value="Login!" type="submit" />
+    </form>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+	
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+</body>
+</html>
